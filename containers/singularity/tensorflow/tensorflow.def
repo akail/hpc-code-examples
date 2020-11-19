@@ -1,0 +1,5 @@
+Bootstrap: docker
+from: tensorflow/tensorflow:latest-gpu
+
+%runscript
+    exec python "$@"
